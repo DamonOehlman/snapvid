@@ -16,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/DamonOehlman/snapvid/issues"
   },
-  "homepage": "https://github.com/DamonOehlman/snapvid"
+  "homepage": "https://github.com/DamonOehlman/snapvid",
+  "devDependencies": {
+    "attachmediastream": "^1.1.0",
+    "getusermedia": "^1.2.0",
+    "hyperscript": "^1.4.3"
+  }
 }
