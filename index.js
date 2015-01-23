@@ -8,7 +8,7 @@ var _cached = {};
 
   ## Example Usage
 
-  <<< examples/snap.js
+  <<< examples/capture.js
 
   ## Reference
 **/
