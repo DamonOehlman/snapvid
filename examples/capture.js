@@ -8,13 +8,6 @@ function captureVid() {
   document.body.appendChild(h('div', h('img', { src: snapvid(video) })));
 }
 
-function createSource(url) {
-  return h('source', {
-    src: url,
-    type: 'video/' + url.replace(/^(?:.*\.)(\w+)$/, '$1')
-  });
-}
-
 getUserMedia({ video: true, audio: true }, function(err, stream) {
   if (err) {
     return console.error('could not capture stream: ', err);
